@@ -1,0 +1,18 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# logs (keep folder, ignore generated logs)
+logs/*.log
+logs/*.json
+
+# db (keep schema/setup script, ignore local runtime copies if regenerated)
+*.db-journal
+
+reports/*.csv
+reports/*.html
